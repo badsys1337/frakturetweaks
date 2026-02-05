@@ -1,0 +1,84 @@
+<Window x:Class="Frakture_Tweaks.StartupModeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource Startup_Title}" Height="450" Width="700"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" ResizeMode="NoResize"
+        AllowsTransparency="True" Background="Transparent">
+
+    <Grid>
+        <Border Background="#1F1F1F" CornerRadius="12" BorderBrush="#333" BorderThickness="1">
+            <Grid Margin="40">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" HorizontalAlignment="Center" Margin="0,0,0,40">
+                    <TextBlock Text="{DynamicResource Startup_Welcome}" Foreground="White" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center"/>
+                    <TextBlock Text="{DynamicResource Startup_Choose}" Foreground="#888" FontSize="16" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                </StackPanel>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    
+                    <Button Grid.Column="0" Click="EasyMode_Click" Cursor="Hand" Background="Transparent" BorderThickness="0">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border x:Name="Border" Background="#252526" CornerRadius="10" BorderBrush="#333" BorderThickness="1">
+                                    <Grid Margin="20">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="🚀" FontSize="40" HorizontalAlignment="Center" Margin="0,20,0,20"/>
+                                        <TextBlock Grid.Row="1" Text="{DynamicResource Startup_Easy}" Foreground="White" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center"/>
+                                        <TextBlock Grid.Row="2" Text="{DynamicResource Startup_EasyDesc}" Foreground="#888" FontSize="14" TextWrapping="Wrap" TextAlignment="Center" Margin="0,10,0,0"/>
+                                    </Grid>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="#2D5A27"/>
+                                        <Setter TargetName="Border" Property="BorderBrush" Value="#4CAF50"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    
+                    <Button Grid.Column="2" Click="AdvancedMode_Click" Cursor="Hand" Background="Transparent" BorderThickness="0">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border x:Name="Border" Background="#252526" CornerRadius="10" BorderBrush="#333" BorderThickness="1">
+                                    <Grid Margin="20">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="🛠️" FontSize="40" HorizontalAlignment="Center" Margin="0,20,0,20"/>
+                                        <TextBlock Grid.Row="1" Text="{DynamicResource Startup_Advanced}" Foreground="White" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center"/>
+                                        <TextBlock Grid.Row="2" Text="{DynamicResource Startup_AdvancedDesc}" Foreground="#888" FontSize="14" TextWrapping="Wrap" TextAlignment="Center" Margin="0,10,0,0"/>
+                                    </Grid>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="#333333"/>
+                                        <Setter TargetName="Border" Property="BorderBrush" Value="#666"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

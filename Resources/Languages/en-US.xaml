@@ -1,0 +1,363 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    
+    <system:String x:Key="Nav_Home">Home</system:String>
+    <system:String x:Key="Nav_WindowsTweaks">Windows Tweaks</system:String>
+    <system:String x:Key="Nav_RamTweaks">Ram Tweaks</system:String>
+    <system:String x:Key="Nav_DelayTweaks">Remove Delay</system:String>
+    <system:String x:Key="Nav_InputBoost">Input Boost</system:String>
+    <system:String x:Key="Nav_SystemBoost">System Boost</system:String>
+    <system:String x:Key="Nav_EthernetTweaks">Ethernet Tweaks</system:String>
+    <system:String x:Key="Nav_CpuTweaks">Cpu Tweaks</system:String>
+    <system:String x:Key="Nav_GpuTweaks">Gpu Tweaks</system:String>
+    <system:String x:Key="Nav_Debloat">Debloat</system:String>
+    <system:String x:Key="Nav_Power">Power</system:String>
+    <system:String x:Key="Nav_Security">Security</system:String>
+    <system:String x:Key="Nav_Fixes">Fixes</system:String>
+
+    
+    <system:String x:Key="Mode_Easy">Easy Mode</system:String>
+    <system:String x:Key="Mode_Advanced">Advanced Mode</system:String>
+
+    
+    <system:String x:Key="Home_Title">DEKU HEROIC PACK</system:String>
+    <system:String x:Key="Home_Subtitle">The ultimate optimization suite.</system:String>
+    <system:String x:Key="Home_AllInclusive">ALL-INCLUSIVE</system:String>
+    <system:String x:Key="Home_AllInclusive_Desc">Complete system configuration from performance tuning to full customization. Fast, convenient, and user-friendly setup.</system:String>
+    <system:String x:Key="Home_RefinedQuality">REFINED QUALITY</system:String>
+    <system:String x:Key="Home_RefinedQuality_Desc">We have combined the best tweaks from various authors into one comprehensive pack. No more expensive placebo.</system:String>
+    <system:String x:Key="Home_CoreModules">CORE MODULES</system:String>
+    <system:String x:Key="Home_CoreModules_Desc">Windows Tweaks • RAM Optimization • Input Delay Removal • Network &amp; Ethernet • CPU &amp; GPU Tuning • System Debloat • Power Plans • Security Hardening</system:String>
+
+    
+    <system:String x:Key="Easy_Title">EASY MODE</system:String>
+    <system:String x:Key="Easy_Subtitle">Full system optimization in one click. Answer a few questions, then let us handle the rest.</system:String>
+    <system:String x:Key="Easy_AutoDetect">Auto-Detect</system:String>
+    <system:String x:Key="Easy_AutoDetect_Desc">Automatically detects your CPU, GPU, and RAM to apply the most suitable optimizations for your hardware.</system:String>
+    <system:String x:Key="Easy_FullOpt">Full Optimization</system:String>
+    <system:String x:Key="Easy_FullOpt_Desc">Applies Windows, RAM, Delay, Network, CPU, GPU tweaks, and system debloat in a single optimized run.</system:String>
+    <system:String x:Key="Easy_Cleanup">System Cleanup</system:String>
+    <system:String x:Key="Easy_Cleanup_Desc">Clears temp files, caches, prefetch data, and flushes DNS. Removes unnecessary bloatware and scheduled tasks.</system:String>
+    <system:String x:Key="Easy_Custom">Custom Options</system:String>
+    <system:String x:Key="Easy_Custom_Desc">Choose optional settings: disable Microsoft Store, VBS/Memory Integrity, Windows Update, and system mitigations.</system:String>
+    <system:String x:Key="Easy_StartBtn">Start Optimization</system:String>
+
+    
+    <system:String x:Key="Notif_Recommendation">Recommendation</system:String>
+    <system:String x:Key="Notif_RestorePoint">It's highly recommended to create restore point to prevent some errors and issues!</system:String>
+    <system:String x:Key="Btn_NoThanks">No, thanks</system:String>
+    <system:String x:Key="Btn_YesCreate">Yes, create it</system:String>
+
+
+    
+    <system:String x:Key="Win_Title">Windows Tweaks</system:String>
+    <system:String x:Key="Win_DisableAnim">Disable Windows Animations</system:String>
+    <system:String x:Key="Win_DirectX">Apply DirectX Tweaks</system:String>
+    <system:String x:Key="Win_Global">Apply 250+ Global Tweaks</system:String>
+    <system:String x:Key="Win_DisableOneDrive">Disable Mitigations/OneDrive/Garbage</system:String>
+    <system:String x:Key="Win_GamingHeader">Gaming Optimizations</system:String>
+    <system:String x:Key="Win_Hags">Enable HAGS &amp; Game Mode</system:String>
+    <system:String x:Key="Win_GamePriority">Set Game High Priority</system:String>
+    <system:String x:Key="Win_CpuOpt">CPU Perf Optimization</system:String>
+    <system:String x:Key="Win_InputLatency">Input Latency Reductions</system:String>
+    <system:String x:Key="Win_AdvSystem">Advanced System Tweaks</system:String>
+    <system:String x:Key="Win_DisableTelem">Disable Telemetry &amp; Error Rep</system:String>
+    <system:String x:Key="Win_Explorer">Optimize File Explorer</system:String>
+    <system:String x:Key="Win_SysPerfPlus">System Performance Plus</system:String>
+    <system:String x:Key="Win_DisableStartDelay">Disable Startup Delay</system:String>
+    <system:String x:Key="Win_OptResp">Optimize Responsiveness</system:String>
+
+    
+    <system:String x:Key="Ram_Title">Ram Tweaks</system:String>
+    <system:String x:Key="Ram_Desc">Optimize your system memory usage and responsiveness.</system:String>
+    <system:String x:Key="Ram_Global">Global RAM Optimization</system:String>
+    <system:String x:Key="Ram_SvcTitle">SvcHost Split Threshold</system:String>
+    <system:String x:Key="Ram_SvcDesc">Set the threshold for svchost.exe based on your RAM size.</system:String>
+    <system:String x:Key="Ram_4GB">4GB RAM</system:String>
+    <system:String x:Key="Ram_8GB">8GB RAM</system:String>
+    <system:String x:Key="Ram_16GB">16GB RAM</system:String>
+    <system:String x:Key="Ram_32GB">32GB RAM</system:String>
+    <system:String x:Key="Ram_64GB">64GB RAM</system:String>
+    <system:String x:Key="Ram_Auto">Auto</system:String>
+    <system:String x:Key="Ram_AdvTitle">Advanced Memory Tweaks</system:String>
+    <system:String x:Key="Ram_DisableComp">Disable Compression</system:String>
+    <system:String x:Key="Ram_OptPaging">Optimize Paging</system:String>
+    <system:String x:Key="Ram_DisablePre">Disable Prefetch</system:String>
+    <system:String x:Key="Ram_LargeCache">Large System Cache</system:String>
+
+
+    
+    <system:String x:Key="Delay_Title">Remove Delay</system:String>
+    <system:String x:Key="Delay_Desc">Eliminate input lag and optimize mouse/keyboard response.</system:String>
+    <system:String x:Key="Delay_MainTitle">Main Delay Tweaks</system:String>
+    <system:String x:Key="Delay_Demolish">Demolish your Delay</system:String>
+    <system:String x:Key="Delay_AdvTitle">Advanced Delay Tweaks</system:String>
+    <system:String x:Key="Delay_Bcd">BCD Latency Tweaks</system:String>
+    <system:String x:Key="Delay_GpuMon">GPU &amp; Monitor Latency</system:String>
+    <system:String x:Key="Delay_Mitigations">Disable Mitigations</system:String>
+    <system:String x:Key="Delay_Trim">Enable TRIM Optimization</system:String>
+    <system:String x:Key="Delay_MouseHid">Mouse HID Optimization</system:String>
+
+    
+    <system:String x:Key="Input_Title">Input Boost</system:String>
+    <system:String x:Key="Input_Desc">Advanced latency reduction and mouse optimization for competitive gaming.</system:String>
+    <system:String x:Key="Input_OptTitle">Optimizations:</system:String>
+    <system:String x:Key="Input_Opt1">• 1:1 Mouse Movement (No Acceleration)</system:String>
+    <system:String x:Key="Input_Opt2">• Reduced Input Queue Size</system:String>
+    <system:String x:Key="Input_Opt3">• System Priority Tweaks (CSRSS, Win32Priority)</system:String>
+    <system:String x:Key="Input_Opt4">• Prefetcher &amp; Superfetch Disabled</system:String>
+    <system:String x:Key="Input_Opt5">• GameDVR &amp; Fullscreen Fixes</system:String>
+    <system:String x:Key="Input_Apply">Apply Input Boost</system:String>
+    <system:String x:Key="Input_Revert">Revert Defaults</system:String>
+
+
+    
+    <system:String x:Key="Sys_Title">System Boost</system:String>
+    <system:String x:Key="Sys_Desc">Comprehensive system optimization for maximum performance.</system:String>
+    <system:String x:Key="Sys_FeatTitle">Features:</system:String>
+    <system:String x:Key="Sys_Feat1">• Privacy: Disable Telemetry, Cortana, &amp; Bing</system:String>
+    <system:String x:Key="Sys_Feat2">• Debloat: Remove UI Clutter &amp; Background Apps</system:String>
+    <system:String x:Key="Sys_Feat3">• Power: Disable Hibernation &amp; Power Throttling</system:String>
+    <system:String x:Key="Sys_Feat4">• Gaming: GameBar &amp; Fullscreen Optimizations</system:String>
+    <system:String x:Key="Sys_Apply">Run System Boost</system:String>
+    <system:String x:Key="Sys_Revert">Restore Defaults</system:String>
+
+    
+    <system:String x:Key="Eth_Title">Ethernet Tweaks</system:String>
+    <system:String x:Key="Eth_Desc">Optimize your network connection for lower ping and better stability.</system:String>
+    <system:String x:Key="Eth_MainTitle">Main Optimizations</system:String>
+    <system:String x:Key="Eth_Global">Global Internet Tweaks</system:String>
+    <system:String x:Key="Eth_DnsFirewall">DNS &amp; Firewall Fixes</system:String>
+    <system:String x:Key="Eth_AdvTitle">Advanced Network Tweaks</system:String>
+    <system:String x:Key="Eth_Reset">Reset Network Settings</system:String>
+    <system:String x:Key="Eth_Nagles">Disable Nagles Algorithm</system:String>
+    <system:String x:Key="Eth_OptAdapter">Optimize Network Adapter</system:String>
+    <system:String x:Key="Eth_DnsPriority">Set DNS Priority</system:String>
+    <system:String x:Key="Eth_Offload">Network Task Offload</system:String>
+
+
+    
+    <system:String x:Key="Cpu_Title">CPU Tweaks</system:String>
+    <system:String x:Key="Cpu_Desc">Optimize your CPU performance, power management, and latency.</system:String>
+    <system:String x:Key="Cpu_Global">Global CPU Tweaks</system:String>
+    <system:String x:Key="Cpu_SpecificHeader">Specific CPU Tweaks</system:String>
+    <system:String x:Key="Cpu_SpecificIntel">Intel CPU Tweaks</system:String>
+    <system:String x:Key="Cpu_SpecificAMD">AMD CPU Tweaks</system:String>
+    <system:String x:Key="Cpu_Apply">Apply CPU Tweaks</system:String>
+
+    
+    <system:String x:Key="Gpu_Title">GPU Tweaks</system:String>
+    <system:String x:Key="Gpu_Desc">Optimize your GPU performance for Nvidia or AMD cards.</system:String>
+    <system:String x:Key="Gpu_Select">Select GPU Manufacturer</system:String>
+    <system:String x:Key="Gpu_Nvidia">Nvidia GPU Tweaks</system:String>
+    <system:String x:Key="Gpu_Amd">AMD GPU Tweaks</system:String>
+    <system:String x:Key="Gpu_Apply">Apply GPU Tweaks</system:String>
+
+
+    
+    <system:String x:Key="Debloat_Title">Debloat</system:String>
+    <system:String x:Key="Debloat_Desc">Remove pre-installed apps and clean system junk to improve performance.</system:String>
+    <system:String x:Key="Debloat_AppManager">App Manager</system:String>
+    <system:String x:Key="Debloat_SystemCleaner">Clean System Junk</system:String>
+    <system:String x:Key="Debloat_CleanDisk">Clean Storage / Disk</system:String>
+    <system:String x:Key="Debloat_DisableServices">Disable Unnecessary Services</system:String>
+    <system:String x:Key="Debloat_RamDebloater">Ram Usage Debloater</system:String>
+    <system:String x:Key="Debloat_RemoveEdge">Remove Microsoft Edge</system:String>
+    <system:String x:Key="Debloat_DisableUpdates">Disable Windows Updates</system:String>
+
+    
+    <system:String x:Key="Power_Title">Power Tweaks</system:String>
+    <system:String x:Key="Power_Desc">Import and activate the best power plan for your system.</system:String>
+    <system:String x:Key="Power_Import">Import Frakture Powerplan</system:String>
+    <system:String x:Key="Power_ImportWarning">can cause laptop processor state cancelling!</system:String>
+    <system:String x:Key="Power_AddOptTitle">Additional Power Optimizations</system:String>
+    <system:String x:Key="Power_Hibernate">Disable Hibernate</system:String>
+    <system:String x:Key="Power_Sleep">Disable Sleep</system:String>
+    <system:String x:Key="Power_UltimatePerf">Ultimate Performance</system:String>
+    <system:String x:Key="Power_Throttling">Disable Power Throttling</system:String>
+    <system:String x:Key="Power_CStates">Disable C-States</system:String>
+    <system:String x:Key="Power_Unpark">Unpark All Cores</system:String>
+
+
+    
+    <system:String x:Key="Security_Title">Security</system:String>
+    <system:String x:Key="Security_Desc">Manage Windows Security settings.</system:String>
+    <system:String x:Key="Security_DisableDefender">Advanced Disable Defender</system:String>
+    <system:String x:Key="Security_DisableUAC">Disable UAC</system:String>
+    <system:String x:Key="Security_DisableVBS">Disable VBS / Memory Integrity</system:String>
+
+    
+    <system:String x:Key="Restore_Title">System Fixes</system:String>
+    <system:String x:Key="Restore_FilterAll">All</system:String>
+    <system:String x:Key="Restore_FilterHardware">Hardware</system:String>
+    <system:String x:Key="Restore_FilterSysRepair">System Repair</system:String>
+    <system:String x:Key="Restore_FilterPerf">Performance</system:String>
+    <system:String x:Key="Restore_FilterSecurity">Security</system:String>
+    <system:String x:Key="Restore_FilterGaming">Gaming</system:String>
+    <system:String x:Key="Restore_FilterRevert">Revert</system:String>
+    <system:String x:Key="Restore_SearchPlaceholder">Search fixes...</system:String>
+    <system:String x:Key="Restore_RunFix">Run Fix</system:String>
+    <system:String x:Key="Restore_RunSelected">Run Selected Fixes</system:String>
+    <system:String x:Key="Restore_Status">{0} fixes available.</system:String>
+
+    
+    <system:String x:Key="Fix_CreateRestorePoint">Create Restore Point</system:String>
+    <system:String x:Key="Fix_CreateRestorePoint_Desc">Creates a system-wide restore point before applying major changes.</system:String>
+    <system:String x:Key="Fix_OpenSystemRestore">Open System Restore</system:String>
+    <system:String x:Key="Fix_OpenSystemRestore_Desc">Launches the Windows System Restore UI (rstrui.exe).</system:String>
+    <system:String x:Key="Fix_RepairSystem">Repair System (SFC/DISM)</system:String>
+    <system:String x:Key="Fix_RepairSystem_Desc">Runs SFC and DISM to repair core Windows system files. Takes 20-40 min.</system:String>
+    <system:String x:Key="Fix_BringBackPower">Bring Back Power &amp; Battery</system:String>
+    <system:String x:Key="Fix_BringBackPower_Desc">Restores missing power settings, battery icon, and power schemes.</system:String>
+    <system:String x:Key="Fix_ResetNetwork">Reset Network Store</system:String>
+    <system:String x:Key="Fix_ResetNetwork_Desc">Resets Winsock, IP stack, and flushes DNS to fix connection issues.</system:String>
+    <system:String x:Key="Fix_WindowsUpdate">Fix Windows Update</system:String>
+    <system:String x:Key="Fix_WindowsUpdate_Desc">Resets Windows Update components and clears SoftwareDistribution.</system:String>
+    <system:String x:Key="Fix_Touchpad">Fix Touchpad</system:String>
+    <system:String x:Key="Fix_Touchpad_Desc">Restores touchpad movement by resetting HID services, registry filters, and power defaults.</system:String>
+    <system:String x:Key="Fix_TouchpadDeep">Touchpad Deep Fix (PS/2/Synaptics/ELAN)</system:String>
+    <system:String x:Key="Fix_TouchpadDeep_Desc">Re-enables PS/2 touchpad stack, resets mouse UpperFilters to mouclass, and rescans devices.</system:String>
+    <system:String x:Key="Fix_StoreApps">Fix Store &amp; Apps</system:String>
+    <system:String x:Key="Fix_StoreApps_Desc">Resets Microsoft Store cache and re-registers all built-in apps.</system:String>
+    <system:String x:Key="Fix_RestoreStore">Restore Microsoft Store</system:String>
+    <system:String x:Key="Fix_RestoreStore_Desc">Robust restoration of the Microsoft Store using service checks, wsreset -i, and package re-registration.</system:String>
+    <system:String x:Key="Fix_RepairWMI">Repair WMI Repository</system:String>
+    <system:String x:Key="Fix_RepairWMI_Desc">Resets the WMI database to fix system monitoring and app issues.</system:String>
+    <system:String x:Key="Fix_PrinterSpooler">Fix Printer Spooler</system:String>
+    <system:String x:Key="Fix_PrinterSpooler_Desc">Restarts the Print Spooler service and clears the print queue.</system:String>
+    <system:String x:Key="Fix_ResetFirewall">Reset Windows Firewall</system:String>
+    <system:String x:Key="Fix_ResetFirewall_Desc">Restores the Windows Firewall to its default state and policies.</system:String>
+    <system:String x:Key="Fix_ClearTemp">Clear Temporary Files</system:String>
+    <system:String x:Key="Fix_ClearTemp_Desc">Deletes all temp files, prefetch, and system caches to free space.</system:String>
+    <system:String x:Key="Fix_RebuildIconCache">Rebuild Icon Cache</system:String>
+    <system:String x:Key="Fix_RebuildIconCache_Desc">Deletes icon and thumbnail databases and restarts Explorer.</system:String>
+    <system:String x:Key="Fix_RestoreAll">Restore ALL Changes</system:String>
+    <system:String x:Key="Fix_RestoreAll_Desc">Attempts a major revert of tweaks to Windows defaults (Partial).</system:String>
+    <system:String x:Key="Fix_DisableCpuTweaks">Disable CPU Tweaks</system:String>
+    <system:String x:Key="Fix_DisableCpuTweaks_Desc">Reverts all CPU and Power Plan optimizations to system defaults.</system:String>
+    <system:String x:Key="Fix_RestoreBluetooth">Restore Bluetooth</system:String>
+    <system:String x:Key="Fix_RestoreBluetooth_Desc">Enables all Bluetooth services and fixes connectivity disconnects.</system:String>
+    <system:String x:Key="Fix_EnableServices">Enable Services</system:String>
+    <system:String x:Key="Fix_EnableServices_Desc">Opens the service selector to restore disabled system services.</system:String>
+    <system:String x:Key="Fix_GpuDriverReset">GPU Driver Reset</system:String>
+    <system:String x:Key="Fix_GpuDriverReset_Desc">Reset GPU driver without restart (simulates Ctrl+Shift+Win+B).</system:String>
+    <system:String x:Key="Fix_AudioFix">Audio Fix</system:String>
+    <system:String x:Key="Fix_AudioFix_Desc">Restart audio services to fix sound issues.</system:String>
+    <system:String x:Key="Fix_ContextMenu">Context Menu Fix (Win11)</system:String>
+    <system:String x:Key="Fix_ContextMenu_Desc">Restore classic Windows 10 context menu in Windows 11.</system:String>
+    <system:String x:Key="Fix_DwmReset">DWM Reset</system:String>
+    <system:String x:Key="Fix_DwmReset_Desc">Restart Desktop Window Manager to fix visual glitches.</system:String>
+    <system:String x:Key="Fix_RamCleanup">RAM Cleanup</system:String>
+    <system:String x:Key="Fix_RamCleanup_Desc">Force garbage collection to free up memory.</system:String>
+    <system:String x:Key="Fix_SlowBoot">Fix Slow Boot</system:String>
+    <system:String x:Key="Fix_SlowBoot_Desc">Optimize startup by resetting hibernation and prefetch.</system:String>
+    <system:String x:Key="Fix_RestoreDefender">Restore Windows Defender</system:String>
+    <system:String x:Key="Fix_RestoreDefender_Desc">Re-enable Windows Defender if disabled by tweaks.</system:String>
+    <system:String x:Key="Fix_GamingServices">Gaming Services Fix</system:String>
+    <system:String x:Key="Fix_GamingServices_Desc">Reset Xbox Game Bar and Gaming Services.</system:String>
+    <system:String x:Key="Fix_UsbReset">USB Reset</system:String>
+    <system:String x:Key="Fix_UsbReset_Desc">Rescan USB devices to fix detection issues.</system:String>
+    <system:String x:Key="Fix_StartupRepair">Startup Repair</system:String>
+    <system:String x:Key="Fix_StartupRepair_Desc">Open Task Manager Startup tab to manage startup apps.</system:String>
+
+
+    
+    <system:String x:Key="AppList_Title">App List</system:String>
+    <system:String x:Key="AppList_Header">App Manager</system:String>
+    <system:String x:Key="AppList_SearchPlaceholder">Search apps...</system:String>
+    <system:String x:Key="AppList_RestoreSelected">Restore Selected</system:String>
+    <system:String x:Key="AppList_DeleteSelected">Delete Selected</system:String>
+    <system:String x:Key="AppList_DeleteAll">Delete All</system:String>
+
+    
+    <system:String x:Key="RamOpt_Title">Optimize RAM Usage</system:String>
+    <system:String x:Key="RamOpt_Header">Select Your Total RAM</system:String>
+    <system:String x:Key="RamOpt_Apply">APPLY OPTIMIZATION</system:String>
+    <system:String x:Key="RamOpt_Unit">RAM</system:String>
+    <system:String x:Key="RamOpt_4GB">4 GB</system:String>
+    <system:String x:Key="RamOpt_8GB">8 GB</system:String>
+    <system:String x:Key="RamOpt_16GB">16 GB</system:String>
+    <system:String x:Key="RamOpt_32GB">32 GB</system:String>
+    <system:String x:Key="RamOpt_64GB">64 GB</system:String>
+
+
+    
+    <system:String x:Key="EnableSvc_Title">Enable Services</system:String>
+    <system:String x:Key="EnableSvc_Header">Enable Services</system:String>
+    <system:String x:Key="EnableSvc_All">All Services</system:String>
+    <system:String x:Key="EnableSvc_AllDesc">Enable all disabled services automatically.</system:String>
+    <system:String x:Key="EnableSvc_Exact">Select Exact Services</system:String>
+    <system:String x:Key="EnableSvc_ExactDesc">Choose specific services to enable from a list.</system:String>
+    <system:String x:Key="EnableSvc_Continue">CONTINUE</system:String>
+
+    
+    <system:String x:Key="Log_Title">Tweak Execution Log</system:String>
+    <system:String x:Key="Log_Header">Activity Log</system:String>
+    <system:String x:Key="Log_Close">Close</system:String>
+
+    
+    <system:String x:Key="SvcList_Title">Service List</system:String>
+    <system:String x:Key="SvcList_Header">Service Manager</system:String>
+    <system:String x:Key="SvcList_SearchPlaceholder">Search services...</system:String>
+    <system:String x:Key="SvcList_EnableSelected">Enable Selected</system:String>
+    <system:String x:Key="SvcList_SelectAll">Select All</system:String>
+    <system:String x:Key="SvcList_Close">Close</system:String>
+
+    
+    <system:String x:Key="Startup_Title">Select Mode</system:String>
+    <system:String x:Key="Startup_Welcome">Welcome to Frakture Tweaks</system:String>
+    <system:String x:Key="Startup_Choose">Choose your optimization experience</system:String>
+    <system:String x:Key="Startup_Easy">Easy Mode</system:String>
+    <system:String x:Key="Startup_EasyDesc">Automated optimization. Best for beginners.</system:String>
+    <system:String x:Key="Startup_Advanced">Advanced Mode</system:String>
+    <system:String x:Key="Startup_AdvancedDesc">Manual control over every tweak. For experts.</system:String>
+
+    
+    <system:String x:Key="Msg_SelectionRequired">Selection Required</system:String>
+    <system:String x:Key="Msg_CpuSelectionRequired">Please select a CPU architecture first.</system:String>
+    <system:String x:Key="Log_ApplyingGlobalCpu">Applying Global CPU Tweaks...</system:String>
+    <system:String x:Key="Log_GlobalCpuApplied">Global Tweaks Applied. Please Restart.</system:String>
+    <system:String x:Key="Log_ApplyingIntelCpu">Applying Intel CPU Tweaks...</system:String>
+    <system:String x:Key="Log_IntelCpuApplied">Intel Tweaks Applied. Please Restart.</system:String>
+    <system:String x:Key="Log_ApplyingAmdCpu">Applying AMD CPU Tweaks...</system:String>
+    <system:String x:Key="Log_AmdCpuApplied">AMD Tweaks Applied. Please Restart.</system:String>
+    <system:String x:Key="Log_Error">Error occurred.</system:String>
+    <system:String x:Key="Log_CriticalError">CRITICAL ERROR: {0}</system:String>
+
+
+
+    
+    <system:String x:Key="Wiz_SysProt_Title">System Protection</system:String>
+    <system:String x:Key="Wiz_SysProt_Msg">Create a System Restore Point before starting? Highly recommended.</system:String>
+    <system:String x:Key="Btn_Skip">No, skip</system:String>
+    
+    <system:String x:Key="Wiz_Store_Title">Microsoft Store</system:String>
+    <system:String x:Key="Wiz_Store_Msg">Do you want to disable Microsoft Store?</system:String>
+    <system:String x:Key="Btn_YesDisable">Yes, disable</system:String>
+    <system:String x:Key="Btn_Keep">No, keep</system:String>
+
+    <system:String x:Key="Wiz_Mitigations_Title">Mitigations</system:String>
+    <system:String x:Key="Wiz_Mitigations_Msg">Disable system mitigations? This can improve performance but reduces security.</system:String>
+
+    <system:String x:Key="Wiz_WinUpdate_Title">Windows Update</system:String>
+    <system:String x:Key="Wiz_WinUpdate_Msg">Do you want to disable Windows Update?</system:String>
+
+    <system:String x:Key="Wiz_Platform_Title">Whats Your Platform?</system:String>
+    <system:String x:Key="Wiz_Platform_Msg">Select your platform so the tweaks can adapt automatically.</system:String>
+    <system:String x:Key="Btn_PC">PC</system:String>
+    <system:String x:Key="Btn_Laptop">Laptop</system:String>
+
+    <system:String x:Key="Stat_Canceling">Canceling...</system:String>
+    <system:String x:Key="Stat_AnswerQuestions">Answer questions...</system:String>
+    <system:String x:Key="Stat_OpeningLog">Opening log...</system:String>
+    <system:String x:Key="Stat_EasyModeStarted">Easy Mode session started.</system:String>
+    <system:String x:Key="Stat_Applying">Applying...</system:String>
+    <system:String x:Key="Stat_Completed">Completed. Please restart.</system:String>
+    <system:String x:Key="Stat_Canceled">Canceled.</system:String>
+    <system:String x:Key="Stat_Error">Error.</system:String>
+    <system:String x:Key="Log_CanceledByUser">Canceled by user.</system:String>
+    <system:String x:Key="Btn_Cancel">Cancel</system:String>
+
+</ResourceDictionary>

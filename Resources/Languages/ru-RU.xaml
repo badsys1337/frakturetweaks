@@ -1,0 +1,363 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    
+    <system:String x:Key="Nav_Home">Главная</system:String>
+    <system:String x:Key="Nav_WindowsTweaks">Твики Windows</system:String>
+    <system:String x:Key="Nav_RamTweaks">ОЗУ Твики</system:String>
+    <system:String x:Key="Nav_DelayTweaks">Убрать Задержку</system:String>
+    <system:String x:Key="Nav_InputBoost">Буст Ввода</system:String>
+    <system:String x:Key="Nav_SystemBoost">Буст Системы</system:String>
+    <system:String x:Key="Nav_EthernetTweaks">Интернет</system:String>
+    <system:String x:Key="Nav_CpuTweaks">CPU Твики</system:String>
+    <system:String x:Key="Nav_GpuTweaks">GPU Твики</system:String>
+    <system:String x:Key="Nav_Debloat">Деблоат</system:String>
+    <system:String x:Key="Nav_Power">Питание</system:String>
+    <system:String x:Key="Nav_Security">Безопасность</system:String>
+    <system:String x:Key="Nav_Fixes">Фиксы</system:String>
+
+    
+    <system:String x:Key="Mode_Easy">Легкий режим</system:String>
+    <system:String x:Key="Mode_Advanced">Продвинутый</system:String>
+
+    
+    <system:String x:Key="Home_Title">DEKU HEROIC PACK</system:String>
+    <system:String x:Key="Home_Subtitle">Ультимативный пакет оптимизации.</system:String>
+    <system:String x:Key="Home_AllInclusive">ВСЕ ВКЛЮЧЕНО</system:String>
+    <system:String x:Key="Home_AllInclusive_Desc">Полная настройка системы от производительности до кастомизации. Быстро, удобно и понятно.</system:String>
+    <system:String x:Key="Home_RefinedQuality">ВЫСОКОЕ КАЧЕСТВО</system:String>
+    <system:String x:Key="Home_RefinedQuality_Desc">Мы собрали лучшие твики от разных авторов в один комплексный пак. Больше никаких "пустышек".</system:String>
+    <system:String x:Key="Home_CoreModules">ОСНОВНЫЕ МОДУЛИ</system:String>
+    <system:String x:Key="Home_CoreModules_Desc">Твики Windows • Оптимизация RAM • Удаление задержек • Сеть • Тюнинг CPU и GPU • Деблоат • Планы питания • Безопасность</system:String>
+
+    
+    <system:String x:Key="Easy_Title">ЛЕГКИЙ РЕЖИМ</system:String>
+    <system:String x:Key="Easy_Subtitle">Полная оптимизация системы в один клик. Ответьте на пару вопросов и мы сделаем всё остальное.</system:String>
+    <system:String x:Key="Easy_AutoDetect">Авто-Определение</system:String>
+    <system:String x:Key="Easy_AutoDetect_Desc">Автоматически определяет CPU, GPU и RAM для применения наиболее подходящих настроек.</system:String>
+    <system:String x:Key="Easy_FullOpt">Полная Оптимизация</system:String>
+    <system:String x:Key="Easy_FullOpt_Desc">Применяет твики Windows, RAM, Сети, CPU, GPU и деблоат за один проход.</system:String>
+    <system:String x:Key="Easy_Cleanup">Очистка Системы</system:String>
+    <system:String x:Key="Easy_Cleanup_Desc">Очищает временные файлы, кеш, prefetch и DNS. Удаляет мусор и лишние задачи.</system:String>
+    <system:String x:Key="Easy_Custom">Свои Настройки</system:String>
+    <system:String x:Key="Easy_Custom_Desc">Выбор опций: отключение MS Store, VBS/Memory Integrity, Windows Update и патчей безопасности.</system:String>
+    <system:String x:Key="Easy_StartBtn">Начать Оптимизацию</system:String>
+
+    
+    <system:String x:Key="Notif_Recommendation">Рекомендация</system:String>
+    <system:String x:Key="Notif_RestorePoint">Настоятельно рекомендуется создать точку восстановления во избежание ошибок!</system:String>
+    <system:String x:Key="Btn_NoThanks">Нет, спасибо</system:String>
+    <system:String x:Key="Btn_YesCreate">Создать</system:String>
+
+
+    
+    <system:String x:Key="Win_Title">Твики Windows</system:String>
+    <system:String x:Key="Win_DisableAnim">Отключить анимации Windows</system:String>
+    <system:String x:Key="Win_DirectX">Твики DirectX</system:String>
+    <system:String x:Key="Win_Global">Применить 250+ Глобальных твиков</system:String>
+    <system:String x:Key="Win_DisableOneDrive">Отключить OneDrive и мусор</system:String>
+    <system:String x:Key="Win_GamingHeader">Игровая Оптимизация</system:String>
+    <system:String x:Key="Win_Hags">Включить HAGS и Игровой режим</system:String>
+    <system:String x:Key="Win_GamePriority">Высокий приоритет для игр</system:String>
+    <system:String x:Key="Win_CpuOpt">Оптимизация производительности CPU</system:String>
+    <system:String x:Key="Win_InputLatency">Снижение задержки ввода</system:String>
+    <system:String x:Key="Win_AdvSystem">Продвинутые системные твики</system:String>
+    <system:String x:Key="Win_DisableTelem">Отключить телеметрию</system:String>
+    <system:String x:Key="Win_Explorer">Оптимизация Проводника</system:String>
+    <system:String x:Key="Win_SysPerfPlus">Системная производительность +</system:String>
+    <system:String x:Key="Win_DisableStartDelay">Отключить задержку запуска</system:String>
+    <system:String x:Key="Win_OptResp">Оптимизация отзывчивости</system:String>
+
+    
+    <system:String x:Key="Ram_Title">Оптимизация ОЗУ</system:String>
+    <system:String x:Key="Ram_Desc">Оптимизация использования памяти и отзывчивости системы.</system:String>
+    <system:String x:Key="Ram_Global">Глобальная оптимизация ОЗУ</system:String>
+    <system:String x:Key="Ram_SvcTitle">Лимит разделения SvcHost</system:String>
+    <system:String x:Key="Ram_SvcDesc">Установите порог для svchost.exe в зависимости от объема ОЗУ.</system:String>
+    <system:String x:Key="Ram_4GB">4 ГБ</system:String>
+    <system:String x:Key="Ram_8GB">8 ГБ</system:String>
+    <system:String x:Key="Ram_16GB">16 ГБ</system:String>
+    <system:String x:Key="Ram_32GB">32 ГБ</system:String>
+    <system:String x:Key="Ram_64GB">64 ГБ</system:String>
+    <system:String x:Key="Ram_Auto">Авто</system:String>
+    <system:String x:Key="Ram_AdvTitle">Продвинутые твики памяти</system:String>
+    <system:String x:Key="Ram_DisableComp">Отключить сжатие памяти</system:String>
+    <system:String x:Key="Ram_OptPaging">Оптимизация файла подкачки</system:String>
+    <system:String x:Key="Ram_DisablePre">Отключить Prefetch</system:String>
+    <system:String x:Key="Ram_LargeCache">Большой системный кэш</system:String>
+
+
+    
+    <system:String x:Key="Delay_Title">Устранение задержки</system:String>
+    <system:String x:Key="Delay_Desc">Устранение инпут-лага и оптимизация отклика мыши/клавиатуры.</system:String>
+    <system:String x:Key="Delay_MainTitle">Основные твики</system:String>
+    <system:String x:Key="Delay_Demolish">Уничтожить задержку</system:String>
+    <system:String x:Key="Delay_AdvTitle">Продвинутые твики</system:String>
+    <system:String x:Key="Delay_Bcd">Твики BCD задержки</system:String>
+    <system:String x:Key="Delay_GpuMon">Задержка GPU и монитора</system:String>
+    <system:String x:Key="Delay_Mitigations">Отключить Mitigations</system:String>
+    <system:String x:Key="Delay_Trim">Включить TRIM оптимизацию</system:String>
+    <system:String x:Key="Delay_MouseHid">Оптимизация HID мыши</system:String>
+
+    
+    <system:String x:Key="Input_Title">Ускорение ввода</system:String>
+    <system:String x:Key="Input_Desc">Продвинутое снижение задержки и оптимизация мыши для соревновательных игр.</system:String>
+    <system:String x:Key="Input_OptTitle">Оптимизации:</system:String>
+    <system:String x:Key="Input_Opt1">• 1:1 Движение мыши (Без акселерации)</system:String>
+    <system:String x:Key="Input_Opt2">• Уменьшенный размер очереди ввода</system:String>
+    <system:String x:Key="Input_Opt3">• Твики приоритетов системы (CSRSS, Win32Priority)</system:String>
+    <system:String x:Key="Input_Opt4">• Отключены Prefetcher и Superfetch</system:String>
+    <system:String x:Key="Input_Opt5">• Исправления GameDVR и полного экрана</system:String>
+    <system:String x:Key="Input_Apply">Применить ускорение</system:String>
+    <system:String x:Key="Input_Revert">Вернуть по умолчанию</system:String>
+
+
+    
+    <system:String x:Key="Sys_Title">Ускорение системы</system:String>
+    <system:String x:Key="Sys_Desc">Комплексная оптимизация системы для максимальной производительности.</system:String>
+    <system:String x:Key="Sys_FeatTitle">Возможности:</system:String>
+    <system:String x:Key="Sys_Feat1">• Приватность: Откл. Телеметрии, Кортаны и Bing</system:String>
+    <system:String x:Key="Sys_Feat2">• Деблоат: Удаление мусора UI и фоновых приложений</system:String>
+    <system:String x:Key="Sys_Feat3">• Питание: Откл. Гибернации и троттлинга</system:String>
+    <system:String x:Key="Sys_Feat4">• Игры: GameBar и оптимизация полного экрана</system:String>
+    <system:String x:Key="Sys_Apply">Запустить Ускорение</system:String>
+    <system:String x:Key="Sys_Revert">Вернуть по умолчанию</system:String>
+
+    
+    <system:String x:Key="Eth_Title">Твики Ethernet</system:String>
+    <system:String x:Key="Eth_Desc">Оптимизация соединения для низкого пинга и стабильности.</system:String>
+    <system:String x:Key="Eth_MainTitle">Основные оптимизации</system:String>
+    <system:String x:Key="Eth_Global">Глобальные Интернет твики</system:String>
+    <system:String x:Key="Eth_DnsFirewall">Исправления DNS и Firewall</system:String>
+    <system:String x:Key="Eth_AdvTitle">Продвинутые сетевые твики</system:String>
+    <system:String x:Key="Eth_Reset">Сброс сети</system:String>
+    <system:String x:Key="Eth_Nagles">Откл. алгоритм Нейгла</system:String>
+    <system:String x:Key="Eth_OptAdapter">Оптимизация сетевого адаптера</system:String>
+    <system:String x:Key="Eth_DnsPriority">Приоритет DNS</system:String>
+    <system:String x:Key="Eth_Offload">Разгрузка сетевых задач</system:String>
+
+
+    
+    <system:String x:Key="Cpu_Title">Твики CPU</system:String>
+    <system:String x:Key="Cpu_Desc">Оптимизация производительности процессора, питания и задержек.</system:String>
+    <system:String x:Key="Cpu_Global">Глобальные твики CPU</system:String>
+    <system:String x:Key="Cpu_SpecificHeader">Специфичные твики CPU</system:String>
+    <system:String x:Key="Cpu_SpecificIntel">Твики для Intel</system:String>
+    <system:String x:Key="Cpu_SpecificAMD">Твики для AMD</system:String>
+    <system:String x:Key="Cpu_Apply">Применить твики CPU</system:String>
+
+    
+    <system:String x:Key="Gpu_Title">Твики GPU</system:String>
+    <system:String x:Key="Gpu_Desc">Оптимизация производительности видеокарты для Nvidia или AMD.</system:String>
+    <system:String x:Key="Gpu_Select">Выберите производителя GPU</system:String>
+    <system:String x:Key="Gpu_Nvidia">Твики для Nvidia</system:String>
+    <system:String x:Key="Gpu_Amd">Твики для AMD</system:String>
+    <system:String x:Key="Gpu_Apply">Применить твики GPU</system:String>
+
+
+    
+    <system:String x:Key="Debloat_Title">Деблоатинг</system:String>
+    <system:String x:Key="Debloat_Desc">Удаление предустановленных приложений и очистка мусора для улучшения производительности.</system:String>
+    <system:String x:Key="Debloat_AppManager">Менеджер приложений</system:String>
+    <system:String x:Key="Debloat_SystemCleaner">Очистка системного мусора</system:String>
+    <system:String x:Key="Debloat_CleanDisk">Очистка диска</system:String>
+    <system:String x:Key="Debloat_DisableServices">Откл. ненужных служб</system:String>
+    <system:String x:Key="Debloat_RamDebloater">Снижение потребления RAM</system:String>
+    <system:String x:Key="Debloat_RemoveEdge">Удалить Microsoft Edge</system:String>
+    <system:String x:Key="Debloat_DisableUpdates">Отключить обновления Windows</system:String>
+
+    
+    <system:String x:Key="Power_Title">Твики питания</system:String>
+    <system:String x:Key="Power_Desc">Импорт и активация лучшего плана питания для вашей системы.</system:String>
+    <system:String x:Key="Power_Import">Импорт Frakture Powerplan</system:String>
+    <system:String x:Key="Power_ImportWarning">может вызвать отмену состояния процессора на ноутбуках!</system:String>
+    <system:String x:Key="Power_AddOptTitle">Дополнительные оптимизации питания</system:String>
+    <system:String x:Key="Power_Hibernate">Отключить гибернацию</system:String>
+    <system:String x:Key="Power_Sleep">Отключить сон</system:String>
+    <system:String x:Key="Power_UltimatePerf">Максимальная производительность</system:String>
+    <system:String x:Key="Power_Throttling">Отключить троттлинг</system:String>
+    <system:String x:Key="Power_CStates">Отключить C-States</system:String>
+    <system:String x:Key="Power_Unpark">Распарковать все ядра</system:String>
+
+
+    
+    <system:String x:Key="Security_Title">Безопасность</system:String>
+    <system:String x:Key="Security_Desc">Управление настройками безопасности Windows.</system:String>
+    <system:String x:Key="Security_DisableDefender">Полное отключение Defender</system:String>
+    <system:String x:Key="Security_DisableUAC">Отключить UAC</system:String>
+    <system:String x:Key="Security_DisableVBS">Отключить VBS / Изоляцию ядра</system:String>
+
+    
+    <system:String x:Key="Restore_Title">Системные исправления</system:String>
+    <system:String x:Key="Restore_FilterAll">Все</system:String>
+    <system:String x:Key="Restore_FilterHardware">Железо</system:String>
+    <system:String x:Key="Restore_FilterSysRepair">Ремонт системы</system:String>
+    <system:String x:Key="Restore_FilterPerf">Производительность</system:String>
+    <system:String x:Key="Restore_FilterSecurity">Безопасность</system:String>
+    <system:String x:Key="Restore_FilterGaming">Игры</system:String>
+    <system:String x:Key="Restore_FilterRevert">Откат</system:String>
+    <system:String x:Key="Restore_SearchPlaceholder">Поиск исправлений...</system:String>
+    <system:String x:Key="Restore_RunFix">Запустить фикс</system:String>
+    <system:String x:Key="Restore_RunSelected">Запустить выбранные</system:String>
+    <system:String x:Key="Restore_Status">{0} исправлений доступно.</system:String>
+
+    
+    <system:String x:Key="Fix_CreateRestorePoint">Создать точку восстановления</system:String>
+    <system:String x:Key="Fix_CreateRestorePoint_Desc">Создаёт системную точку восстановления перед применением изменений.</system:String>
+    <system:String x:Key="Fix_OpenSystemRestore">Открыть восстановление системы</system:String>
+    <system:String x:Key="Fix_OpenSystemRestore_Desc">Запускает интерфейс восстановления системы Windows (rstrui.exe).</system:String>
+    <system:String x:Key="Fix_RepairSystem">Восстановить систему (SFC/DISM)</system:String>
+    <system:String x:Key="Fix_RepairSystem_Desc">Запускает SFC и DISM для восстановления системных файлов. Занимает 20-40 мин.</system:String>
+    <system:String x:Key="Fix_BringBackPower">Вернуть питание и батарею</system:String>
+    <system:String x:Key="Fix_BringBackPower_Desc">Восстанавливает настройки питания, значок батареи и схемы электропитания.</system:String>
+    <system:String x:Key="Fix_ResetNetwork">Сброс сетевого хранилища</system:String>
+    <system:String x:Key="Fix_ResetNetwork_Desc">Сбрасывает Winsock, IP-стек и очищает DNS для исправления проблем соединения.</system:String>
+    <system:String x:Key="Fix_WindowsUpdate">Исправить Windows Update</system:String>
+    <system:String x:Key="Fix_WindowsUpdate_Desc">Сбрасывает компоненты Windows Update и очищает SoftwareDistribution.</system:String>
+    <system:String x:Key="Fix_Touchpad">Исправить тачпад</system:String>
+    <system:String x:Key="Fix_Touchpad_Desc">Восстанавливает работу тачпада через сброс служб HID, фильтров реестра и питания.</system:String>
+    <system:String x:Key="Fix_TouchpadDeep">Глубокий фикс тачпада (PS/2/Synaptics/ELAN)</system:String>
+    <system:String x:Key="Fix_TouchpadDeep_Desc">Включает PS/2 стек тачпада, сбрасывает UpperFilters мыши на mouclass и пересканирует устройства.</system:String>
+    <system:String x:Key="Fix_StoreApps">Исправить Store и приложения</system:String>
+    <system:String x:Key="Fix_StoreApps_Desc">Сбрасывает кеш Microsoft Store и перерегистрирует все встроенные приложения.</system:String>
+    <system:String x:Key="Fix_RestoreStore">Восстановить Microsoft Store</system:String>
+    <system:String x:Key="Fix_RestoreStore_Desc">Полное восстановление Microsoft Store через проверку служб, wsreset -i и перерегистрацию пакетов.</system:String>
+    <system:String x:Key="Fix_RepairWMI">Восстановить репозиторий WMI</system:String>
+    <system:String x:Key="Fix_RepairWMI_Desc">Сбрасывает базу данных WMI для исправления мониторинга системы и приложений.</system:String>
+    <system:String x:Key="Fix_PrinterSpooler">Исправить диспетчер печати</system:String>
+    <system:String x:Key="Fix_PrinterSpooler_Desc">Перезапускает службу диспетчера печати и очищает очередь печати.</system:String>
+    <system:String x:Key="Fix_ResetFirewall">Сброс брандмауэра Windows</system:String>
+    <system:String x:Key="Fix_ResetFirewall_Desc">Восстанавливает брандмауэр Windows до состояния и политик по умолчанию.</system:String>
+    <system:String x:Key="Fix_ClearTemp">Очистить временные файлы</system:String>
+    <system:String x:Key="Fix_ClearTemp_Desc">Удаляет все временные файлы, prefetch и системные кеши для освобождения места.</system:String>
+    <system:String x:Key="Fix_RebuildIconCache">Пересобрать кеш иконок</system:String>
+    <system:String x:Key="Fix_RebuildIconCache_Desc">Удаляет базы данных иконок и миниатюр и перезапускает Проводник.</system:String>
+    <system:String x:Key="Fix_RestoreAll">Отменить ВСЕ изменения</system:String>
+    <system:String x:Key="Fix_RestoreAll_Desc">Пытается откатить твики к настройкам Windows по умолчанию (частично).</system:String>
+    <system:String x:Key="Fix_DisableCpuTweaks">Отключить твики CPU</system:String>
+    <system:String x:Key="Fix_DisableCpuTweaks_Desc">Возвращает все оптимизации CPU и планов питания к системным настройкам.</system:String>
+    <system:String x:Key="Fix_RestoreBluetooth">Восстановить Bluetooth</system:String>
+    <system:String x:Key="Fix_RestoreBluetooth_Desc">Включает все службы Bluetooth и исправляет проблемы с подключением.</system:String>
+    <system:String x:Key="Fix_EnableServices">Включить службы</system:String>
+    <system:String x:Key="Fix_EnableServices_Desc">Открывает выбор служб для восстановления отключённых системных служб.</system:String>
+    <system:String x:Key="Fix_GpuDriverReset">Сброс драйвера GPU</system:String>
+    <system:String x:Key="Fix_GpuDriverReset_Desc">Сбрасывает драйвер GPU без перезагрузки (имитирует Ctrl+Shift+Win+B).</system:String>
+    <system:String x:Key="Fix_AudioFix">Исправить звук</system:String>
+    <system:String x:Key="Fix_AudioFix_Desc">Перезапускает аудио службы для исправления проблем со звуком.</system:String>
+    <system:String x:Key="Fix_ContextMenu">Исправить контекстное меню (Win11)</system:String>
+    <system:String x:Key="Fix_ContextMenu_Desc">Восстанавливает классическое контекстное меню Windows 10 в Windows 11.</system:String>
+    <system:String x:Key="Fix_DwmReset">Сброс DWM</system:String>
+    <system:String x:Key="Fix_DwmReset_Desc">Перезапускает Desktop Window Manager для исправления визуальных глюков.</system:String>
+    <system:String x:Key="Fix_RamCleanup">Очистка RAM</system:String>
+    <system:String x:Key="Fix_RamCleanup_Desc">Принудительная сборка мусора для освобождения памяти.</system:String>
+    <system:String x:Key="Fix_SlowBoot">Исправить медленную загрузку</system:String>
+    <system:String x:Key="Fix_SlowBoot_Desc">Оптимизирует запуск через сброс гибернации и prefetch.</system:String>
+    <system:String x:Key="Fix_RestoreDefender">Восстановить Windows Defender</system:String>
+    <system:String x:Key="Fix_RestoreDefender_Desc">Повторно включает Windows Defender, если он был отключён твиками.</system:String>
+    <system:String x:Key="Fix_GamingServices">Исправить игровые службы</system:String>
+    <system:String x:Key="Fix_GamingServices_Desc">Сбрасывает Xbox Game Bar и Gaming Services.</system:String>
+    <system:String x:Key="Fix_UsbReset">Сброс USB</system:String>
+    <system:String x:Key="Fix_UsbReset_Desc">Пересканирует USB устройства для исправления проблем обнаружения.</system:String>
+    <system:String x:Key="Fix_StartupRepair">Управление автозагрузкой</system:String>
+    <system:String x:Key="Fix_StartupRepair_Desc">Открывает вкладку автозагрузки в Диспетчере задач для управления приложениями.</system:String>
+
+
+    
+    <system:String x:Key="AppList_Title">Список приложений</system:String>
+    <system:String x:Key="AppList_Header">Менеджер приложений</system:String>
+    <system:String x:Key="AppList_SearchPlaceholder">Поиск приложений...</system:String>
+    <system:String x:Key="AppList_RestoreSelected">Восстановить выбранные</system:String>
+    <system:String x:Key="AppList_DeleteSelected">Удалить выбранные</system:String>
+    <system:String x:Key="AppList_DeleteAll">Удалить все</system:String>
+
+    
+    <system:String x:Key="RamOpt_Title">Оптимизация RAM</system:String>
+    <system:String x:Key="RamOpt_Header">Выберите объем RAM</system:String>
+    <system:String x:Key="RamOpt_Apply">ПРИМЕНИТЬ ОПТИМИЗАЦИЮ</system:String>
+    <system:String x:Key="RamOpt_Unit">ОЗУ</system:String>
+    <system:String x:Key="RamOpt_4GB">4 ГБ</system:String>
+    <system:String x:Key="RamOpt_8GB">8 ГБ</system:String>
+    <system:String x:Key="RamOpt_16GB">16 ГБ</system:String>
+    <system:String x:Key="RamOpt_32GB">32 ГБ</system:String>
+    <system:String x:Key="RamOpt_64GB">64 ГБ</system:String>
+
+
+    
+    <system:String x:Key="EnableSvc_Title">Включить службы</system:String>
+    <system:String x:Key="EnableSvc_Header">Включить службы</system:String>
+    <system:String x:Key="EnableSvc_All">Все службы</system:String>
+    <system:String x:Key="EnableSvc_AllDesc">Включить все отключенные службы автоматически.</system:String>
+    <system:String x:Key="EnableSvc_Exact">Выбрать вручную</system:String>
+    <system:String x:Key="EnableSvc_ExactDesc">Выбрать конкретные службы из списка.</system:String>
+    <system:String x:Key="EnableSvc_Continue">ПРОДОЛЖИТЬ</system:String>
+
+    
+    <system:String x:Key="Log_Title">Журнал применения</system:String>
+    <system:String x:Key="Log_Header">Журнал активности</system:String>
+    <system:String x:Key="Log_Close">Закрыть</system:String>
+
+    
+    <system:String x:Key="SvcList_Title">Список служб</system:String>
+    <system:String x:Key="SvcList_Header">Менеджер служб</system:String>
+    <system:String x:Key="SvcList_SearchPlaceholder">Поиск служб...</system:String>
+    <system:String x:Key="SvcList_EnableSelected">Включить выбранные</system:String>
+    <system:String x:Key="SvcList_SelectAll">Выбрать все</system:String>
+    <system:String x:Key="SvcList_Close">Закрыть</system:String>
+
+    
+    <system:String x:Key="Startup_Title">Выбор режима</system:String>
+    <system:String x:Key="Startup_Welcome">Добро пожаловать в Frakture Tweaks</system:String>
+    <system:String x:Key="Startup_Choose">Выберите режим оптимизации</system:String>
+    <system:String x:Key="Startup_Easy">Легкий режим</system:String>
+    <system:String x:Key="Startup_EasyDesc">Автоматическая оптимизация. Для новичков.</system:String>
+    <system:String x:Key="Startup_Advanced">Расширенный режим</system:String>
+    <system:String x:Key="Startup_AdvancedDesc">Ручной контроль каждого твика. Для экспертов.</system:String>
+
+    
+    <system:String x:Key="Msg_SelectionRequired">Требуется выбор</system:String>
+    <system:String x:Key="Msg_CpuSelectionRequired">Пожалуйста, выберите архитектуру CPU.</system:String>
+    <system:String x:Key="Log_ApplyingGlobalCpu">Применение глобальных твиков CPU...</system:String>
+    <system:String x:Key="Log_GlobalCpuApplied">Глобальные твики применены. Пожалуйста, перезагрузите ПК.</system:String>
+    <system:String x:Key="Log_ApplyingIntelCpu">Применение твиков Intel CPU...</system:String>
+    <system:String x:Key="Log_IntelCpuApplied">Твики Intel применены. Пожалуйста, перезагрузите ПК.</system:String>
+    <system:String x:Key="Log_ApplyingAmdCpu">Применение твиков AMD CPU...</system:String>
+    <system:String x:Key="Log_AmdCpuApplied">Твики AMD применены. Пожалуйста, перезагрузите ПК.</system:String>
+    <system:String x:Key="Log_Error">Произошла ошибка.</system:String>
+    <system:String x:Key="Log_CriticalError">КРИТИЧЕСКАЯ ОШИБКА: {0}</system:String>
+
+
+
+    
+    <system:String x:Key="Wiz_SysProt_Title">Защита системы</system:String>
+    <system:String x:Key="Wiz_SysProt_Msg">Создать точку восстановления перед началом? Рекомендуется.</system:String>
+    <system:String x:Key="Btn_Skip">Нет, пропустить</system:String>
+    
+    <system:String x:Key="Wiz_Store_Title">Microsoft Store</system:String>
+    <system:String x:Key="Wiz_Store_Msg">Вы хотите отключить Microsoft Store?</system:String>
+    <system:String x:Key="Btn_YesDisable">Да, отключить</system:String>
+    <system:String x:Key="Btn_Keep">Нет, оставить</system:String>
+
+    <system:String x:Key="Wiz_Mitigations_Title">Митигации</system:String>
+    <system:String x:Key="Wiz_Mitigations_Msg">Отключить системные митигации? Улучшает производительность, но снижает безопасность.</system:String>
+
+    <system:String x:Key="Wiz_WinUpdate_Title">Windows Update</system:String>
+    <system:String x:Key="Wiz_WinUpdate_Msg">Вы хотите отключить обновления Windows?</system:String>
+
+    <system:String x:Key="Wiz_Platform_Title">Ваша платформа?</system:String>
+    <system:String x:Key="Wiz_Platform_Msg">Выберите платформу для адаптации твиков.</system:String>
+    <system:String x:Key="Btn_PC">ПК</system:String>
+    <system:String x:Key="Btn_Laptop">Ноутбук</system:String>
+
+    <system:String x:Key="Stat_Canceling">Отмена...</system:String>
+    <system:String x:Key="Stat_AnswerQuestions">Ответьте на вопросы...</system:String>
+    <system:String x:Key="Stat_OpeningLog">Открытие журнала...</system:String>
+    <system:String x:Key="Stat_EasyModeStarted">Сессия легкого режима начата.</system:String>
+    <system:String x:Key="Stat_Applying">Применение...</system:String>
+    <system:String x:Key="Stat_Completed">Готово. Пожалуйста, перезагрузите ПК.</system:String>
+    <system:String x:Key="Stat_Canceled">Отменено.</system:String>
+    <system:String x:Key="Stat_Error">Ошибка.</system:String>
+    <system:String x:Key="Log_CanceledByUser">Отменено пользователем.</system:String>
+    <system:String x:Key="Btn_Cancel">Отмена</system:String>
+
+</ResourceDictionary>

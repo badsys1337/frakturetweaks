@@ -1,0 +1,106 @@
+<Window x:Class="Frakture_Tweaks.RamOptimizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Frakture_Tweaks"
+        mc:Ignorable="d"
+        Title="{DynamicResource RamOpt_Title}" Height="350" Width="600"
+        Background="#1F1F1F"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.Resources>
+            <Style x:Key="RamRadioButtonStyle" TargetType="RadioButton">
+                <Setter Property="Background" Value="#2D2D30"/>
+                <Setter Property="Foreground" Value="#CCCCCC"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Padding" Value="15,10"/>
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="RadioButton">
+                            <Border x:Name="Border" 
+                                    Background="{TemplateBinding Background}" 
+                                    BorderBrush="#444" 
+                                    BorderThickness="1" 
+                                    CornerRadius="6">
+                                <Grid>
+                                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="{TemplateBinding Padding}">
+                                        <TextBlock Text="{TemplateBinding Content}" 
+                                                   HorizontalAlignment="Center" 
+                                                   FontWeight="SemiBold"/>
+                                        <TextBlock Text="{DynamicResource RamOpt_Unit}" 
+                                                   FontSize="10" 
+                                                   Foreground="#888" 
+                                                   HorizontalAlignment="Center" 
+                                                   Margin="0,2,0,0"/>
+                                    </StackPanel>
+                                    
+                                    
+                                    <Border x:Name="Indicator" 
+                                            HorizontalAlignment="Right" 
+                                            VerticalAlignment="Top" 
+                                            Width="10" Height="10" 
+                                            Background="#999" 
+                                            CornerRadius="5" 
+                                            Margin="5" 
+                                            Visibility="Collapsed"/>
+                                </Grid>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="Border" Property="Background" Value="#383838"/>
+                                    <Setter TargetName="Border" Property="BorderBrush" Value="#666"/>
+                                </Trigger>
+                                <Trigger Property="IsChecked" Value="True">
+                                    <Setter TargetName="Border" Property="Background" Value="#252526"/>
+                                    <Setter TargetName="Border" Property="BorderBrush" Value="#999"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter TargetName="Indicator" Property="Visibility" Value="Visible"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+
+        <StackPanel Margin="30" VerticalAlignment="Center">
+            <TextBlock Text="{DynamicResource RamOpt_Header}" 
+                       Foreground="#FFF" 
+                       FontSize="22" 
+                       FontWeight="Bold" 
+                       Margin="0,0,0,25" 
+                       HorizontalAlignment="Center"/>
+
+            
+            <UniformGrid x:Name="RamSelectionPanel" Columns="5" HorizontalAlignment="Center" Margin="0,0,0,30">
+                <RadioButton Content="{DynamicResource RamOpt_4GB}" GroupName="RamSize" Tag="4" Style="{StaticResource RamRadioButtonStyle}"/>
+                <RadioButton Content="{DynamicResource RamOpt_8GB}" GroupName="RamSize" Tag="8" Style="{StaticResource RamRadioButtonStyle}"/>
+                <RadioButton Content="{DynamicResource RamOpt_16GB}" GroupName="RamSize" Tag="16" Style="{StaticResource RamRadioButtonStyle}" IsChecked="True"/>
+                <RadioButton Content="{DynamicResource RamOpt_32GB}" GroupName="RamSize" Tag="32" Style="{StaticResource RamRadioButtonStyle}"/>
+                <RadioButton Content="{DynamicResource RamOpt_64GB}" GroupName="RamSize" Tag="64" Style="{StaticResource RamRadioButtonStyle}"/>
+            </UniformGrid>
+
+            <Button x:Name="ApplyBtn"
+                    Content="{DynamicResource RamOpt_Apply}"
+                    Click="ApplyBtn_Click"
+                    Background="#333"
+                    Foreground="White"
+                    FontSize="14"
+                    Padding="30,12"
+                    BorderThickness="0"
+                    HorizontalAlignment="Center"
+                    Cursor="Hand">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

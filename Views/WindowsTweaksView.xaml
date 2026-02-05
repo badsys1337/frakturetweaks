@@ -1,0 +1,270 @@
+<UserControl x:Class="Frakture_Tweaks.WindowsTweaksView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Frakture_Tweaks"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Transparent">
+        <StackPanel Margin="40">
+            <TextBlock Text="{DynamicResource Win_Title}" Foreground="#444" FontSize="32" FontWeight="Light" Margin="0,0,0,30"/>
+            
+            <Button x:Name="DisableAnimationsBtn"
+                    Content="{DynamicResource Win_DisableAnim}"
+                    Click="DisableAnimationsBtn_Click"
+                    Background="#333"
+                    Foreground="White"
+                    FontSize="14"
+                    Padding="15,8"
+                    BorderThickness="0"
+                    HorizontalAlignment="Left"
+                    Cursor="Hand"
+                    Margin="0,0,0,10">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button x:Name="DirectXTweaksBtn"
+                    Content="{DynamicResource Win_DirectX}"
+                    Click="DirectXTweaksBtn_Click"
+                    Background="#333"
+                    Foreground="White"
+                    FontSize="14"
+                    Padding="15,8"
+                    BorderThickness="0"
+                    HorizontalAlignment="Left"
+                    Cursor="Hand">
+                <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="4"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                    <Button x:Name="GlobalTweaksBtn"
+                            Content="{DynamicResource Win_Global}"
+                            Click="GlobalTweaksBtn_Click"
+                            Background="#333"
+                            Foreground="White"
+                            FontSize="14"
+                            Padding="15,8"
+                            BorderThickness="0"
+                            HorizontalAlignment="Left"
+                            Cursor="Hand"
+                            Margin="0,10,0,0">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="4"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                    <Button x:Name="DisableOneDriveBtn"
+                            Content="{DynamicResource Win_DisableOneDrive}"
+                            Click="DisableOneDriveBtn_Click"
+                            Background="#333"
+                            Foreground="White"
+                            FontSize="14"
+                            Padding="15,8"
+                            BorderThickness="0"
+                            HorizontalAlignment="Left"
+                            Cursor="Hand"
+                            Margin="0,10,0,0">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="4"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    
+            <TextBlock Text="{DynamicResource Win_GamingHeader}" Foreground="#444" FontSize="18" FontWeight="SemiBold" Margin="0,20,0,10"/>
+            <WrapPanel>
+                <Button x:Name="HagsGameModeBtn"
+                        Content="{DynamicResource Win_Hags}"
+                        Click="HagsGameModeBtn_Click"
+                        Background="#2D5A27"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button x:Name="GamePriorityBtn"
+                        Content="{DynamicResource Win_GamePriority}"
+                        Click="GamePriorityBtn_Click"
+                        Background="#333"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button x:Name="CpuOptimizationBtn"
+                        Content="{DynamicResource Win_CpuOpt}"
+                        Click="CpuOptimizationBtn_Click"
+                        Background="#333"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button x:Name="InputLatencyBtn"
+                        Content="{DynamicResource Win_InputLatency}"
+                        Click="InputLatencyBtn_Click"
+                        Background="#333"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button x:Name="AdvancedSystemTweaksBtn"
+                        Content="{DynamicResource Win_AdvSystem}"
+                        Click="AdvancedSystemTweaksBtn_Click"
+                        Background="#333"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                
+                <Button x:Name="DisableTelemetryBtn"
+                        Content="{DynamicResource Win_DisableTelem}"
+                        Click="DisableTelemetryBtn_Click"
+                        Background="#333"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button x:Name="ExplorerTweaksBtn"
+                        Content="{DynamicResource Win_Explorer}"
+                        Click="ExplorerTweaksBtn_Click"
+                        Background="#333"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button x:Name="SystemOptimizationsBtn"
+                        Content="{DynamicResource Win_SysPerfPlus}"
+                        Click="SystemOptimizationsBtn_Click"
+                        Background="#333"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button x:Name="DisableStartupDelayBtn"
+                        Content="{DynamicResource Win_DisableStartDelay}"
+                        Click="DisableStartupDelayBtn_Click"
+                        Background="#333"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button x:Name="OptimizeResponsivenessBtn"
+                        Content="{DynamicResource Win_OptResp}"
+                        Click="OptimizeResponsivenessBtn_Click"
+                        Background="#333"
+                        Foreground="White"
+                        FontSize="15"
+                        Padding="17,10"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,15,15"
+                        Width="240">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="4"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
